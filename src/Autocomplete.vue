@@ -11,7 +11,7 @@
     </div>
     <div class="v-autocomplete-list" v-if="show">
       <div class="v-autocomplete-list-item" v-for="item, i in internalItems" @click="onClickItem(item)"
-           :class="{'v-autocomplete-item-active': i === cursor}" @mouseover="cursor = i">
+           :class="{'v-autocomplete-item-active': i === cursor}">
         <div :is="componentItem" :item="item" :searchText="searchText"></div>
       </div>
     </div>
