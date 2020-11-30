@@ -1,6 +1,6 @@
 {
   "name": "k-v-autocomplete",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fork of v-autocomplete (https://github.com/paliari/v-autocomplete)",
   "author": "Javier" ,
   "main": "dist/v-autocomplete.js",
