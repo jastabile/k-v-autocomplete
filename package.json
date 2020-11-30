@@ -1,11 +1,11 @@
 {
-  "name": "v-autocomplete",
-  "version": "1.8.2",
-  "description": "Autocomplete component for Vue.js",
-  "author": "Marcos Paliari <marcos@paliari.com.br>",
+  "name": "k-v-autocomplete",
+  "version": "1.0.0",
+  "description": "A fork of v-autocomplete (https://github.com/paliari/v-autocomplete)",
+  "author": "Javier" ,
   "main": "dist/v-autocomplete.js",
   "license": "MIT",
-  "repository": "https://github.com/paliari/v-autocomplete",
+  "repository": "https://github.com/jastabile/k-v-autocomplete",
   "scripts": {
     "dist": "poi build ./src/v-autocomplete.js --format umd --module-name VAutocomplete --filename.js v-autocomplete.js --filename.css v-autocomplete.css --no-sourceMap --no-html",
     "dist:demo": "poi build ./demo/index.js --config ./demo/build.config.js --filename.css v-autocomplete.css --no-sourceMap --dist ./docs",
@@ -30,5 +30,9 @@
     "serve": "^7.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
   }
 }
