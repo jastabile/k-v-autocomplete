@@ -12,11 +12,11 @@ Installation
 
 ### Using yarn
 
-`yarn add v-autocomplete`
+`yarn add k-v-autocomplete`
 
 ### Using npm
 
-`npm i --save v-autocomplete`
+`npm i --save k-v-autocomplete`
 
 Demo
 ----
@@ -31,10 +31,10 @@ Usage
 ```js
 import Vue from 'vue'
 
-import Autocomplete from 'v-autocomplete'
+import Autocomplete from 'k-v-autocomplete'
 
 // You need a specific loader for CSS files like https://github.com/webpack/css-loader
-import 'v-autocomplete/dist/v-autocomplete.css'
+import 'v-autocomplete/dist/k-v-autocomplete.css'
 
 Vue.use(Autocomplete)
 ```
